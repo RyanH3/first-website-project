@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Form Assignment
+		</title>
+		<link rel="stylesheet" href="../Style Sheets/Basic Style Sheet.css">		
+	</head>
+	
+	<body>
+		<!--Valencia Logo-->
+		<img src="../Images/Valencia Logo.png" alt="Valencia College Logo" height="200"></img>
+		
+		<!--Form-->
+		<form action="realwebsite.net/people.asp" method="get" name="frmInfo" enctype="multipart/form-data">
+			<h4>Information Form</h4>
+			<p>Please fill out this form:</p>
+			<!--About User Section-->
+			
+			<fieldset>
+				<legend>About You</legend>
+					<table>
+						<tr>
+							<td><label>First Name:</label></td>
+							<td><input type="text" name="txtFName"></td>
+						</tr>
+						<tr>
+							<td><label>Last Name:</label></td>
+							<td><input type="text" name="txtLName"></td>
+						</tr>
+					</table> <!--Had to break table into two cuz of formatting issue-->
+					
+					<table>
+						<tr>
+							<td><label>Gender:</label></td>
+							<td><input type="radio" name="radGender" value="Male">Male</td>
+							<td><input type="radio" name="radGender" value="Female">Female</td>
+							<td><input type="radio" name="radGender" value="Other">Other</td>
+						</tr>
+					</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Your Opinion</legend>
+					<table>
+						<tr>
+							<td>Colors you like:</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="chkColor" value="Red">Red</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="chkColor" value="White">White</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="chkColor" value="Blue">Blue</td>
+						</tr>
+						
+						<tr>
+						</tr>
+						
+						<tr>
+							<td>Sport you like:</td>
+						</tr>
+						<tr>
+							<td>
+								<select name="selSport">
+									<option selected="selected" value="">Select sport</option>
+									<option value="soccer">Soccer</option>
+									<option value="football">Football</option>
+									<option value="hockey">Hockey</option>
+									<option value="golf">Golf</option>
+									<option value="basketball">Basketball</option>
+									<option value="baseball">Baseball</option>
+									<option value="bowling">Bowling</option>
+									<option value="skating">Skating</option>
+									<option value="quidditch">Quidditch</option>
+									<option value="fencing">Fencing</option>
+								</select>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>What do you think about Global Warming?</td>
+						</tr>
+						<tr>
+							<td>
+								<textarea name="txtGlobalWarming" rows="20" col="50"></textarea>
+							</td>
+						</tr>
+						
+					</table>
+			</fieldset>
+			<fieldset>
+				<legend>Your Submission</legend>
+					<table>
+						<tr>
+							<td><label>Password:</label></td>
+							<td><input type="password" name="pwdPassword" value="" size="10" maxlength="10"></td>
+						</tr>
+						<tr>
+							<td><label>Upload a file:</label></td>
+							<td><input type="file" name="fileUpload" accept="Image/*"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Submit"></td>
+						</tr>
+					</table>
+			</fieldset>
+		</form>
+	<a href="index.html" class="home"><img class="home" src="../Images/Home Icon (Smaller).png" alt="Return to Homepage"></a>
+
+	</body>
+	
+</html>

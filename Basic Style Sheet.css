@@ -1,0 +1,156 @@
+/* Basic Style Sheet */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #ffd480;
+	font-family: verdana, arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+#main_div{
+	background: #b3b3b3;
+	float:left;
+	width: 70%;
+	margin-left: 50px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	padding: 10px;
+	border: 5px solid #666666;
+	border-radius: 6px;
+}
+
+#main_div>p{
+	background: #d9d9d9;
+	margin: 10px;
+	padding: 5px;
+	text-indent: 50px;
+	font-size: 24px;
+	border-radius: 10px;
+}
+
+#news{
+	float: right;
+	background: #b3b3b3;
+	width: 16%;
+	margin-left: 0px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	padding: 10px;
+	border: 5px solid #666666;
+	border-radius: 6px;
+}
+
+#news>p{
+	background: #d9d9d9;
+	margin: 1px;
+	padding: 1px;
+	font-size: 16px;
+	border-radius: 1px;
+
+}
+
+#home_topper {
+	font-size: 5em;
+	color: white;
+}
+
+h2.homepage {
+	font-size: 28px;
+	background: linear-gradient(to top, #669999 0%, #ccccff 100%);
+	color: #664400;
+	padding: 0px;
+	border-radius: 15px;
+	text-align: center;
+
+}
+
+header {
+	text-align: center;
+	height: 100px;
+	margin: 0px;
+	border: 0px;
+	background: url(../Images/Tiger.jpg);
+}
+
+table {
+	border: solid #333300 5px;
+}
+
+nav{
+	margin: 10px;
+	margin-left: 50px;
+	border: 0px;
+	padding: 0px;
+}
+
+#link_table>td {
+	background: none;
+	border: 0px;
+	margin: 0px;
+}
+
+a:link, a:visited{
+	background: linear-gradient(0deg, rgba(201,19,19,1) 0%, rgba(241,132,132,1) 100%);
+	color: white;
+	padding: 5px;
+	margin:0px;
+	text-decoration: none;
+	
+}
+
+a:hover, a:active{
+	background: linear-gradient(0deg, rgba(201,19,19,1) 0%, rgba(241,132,132,1) 100%);
+	color: white;
+	padding: 5px;
+	margin:0px;
+	box-shadow: 0px 0px 10px white;
+}
+
+table.scores {
+	margin: 50px;
+}
+
+th, td {
+	background-color: #ffffcc;
+	text-align: center;
+	border: solid #4d2600 2px;
+	padding: 5px;
+	margin: 0px;
+}
+
+caption {
+	background-color: #FAD578;
+	border: solid #333300 3px;
+	font-weight: bold;
+}
+
+fieldset {
+	width: 425px;
+	background: #990000;
+}
+
+legend {
+	background: #ffffcc;
+	border: solid #4d2600 2px;
+}
+
+/*Host blocks homepage button. FIX*/
+a.home {
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
